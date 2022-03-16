@@ -1,0 +1,3 @@
+com\fan\springcloud\OrderConsumerZkMain.class
+com\fan\springcloud\controller\OrderZKController.class
+com\fan\springcloud\config\OrderConsumerZkConfig.class
