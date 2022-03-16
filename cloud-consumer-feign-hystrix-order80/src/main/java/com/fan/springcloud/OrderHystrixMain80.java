@@ -1,20 +1,18 @@
 package com.fan.springcloud;
-
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.netflix.hystrix.EnableHystrix;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
  * @author shkstart
- * @create2022-03-1619:23
+ * @create2022-03-1621:07
  */
 @SpringBootApplication
-@EnableEurekaClient
+@EnableFeignClients
 @EnableHystrix
-public class PaymentHystrixMain8001 {
+public class OrderHystrixMain80 {
     public static void main(String[] args) {
-        SpringApplication.run(PaymentHystrixMain8001.class, args);
+        SpringApplication.run(OrderHystrixMain80.class, args);
     }
 }
