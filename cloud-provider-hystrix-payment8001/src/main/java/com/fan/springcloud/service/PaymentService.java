@@ -9,6 +9,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class PaymentService {
     public static void main(String[] args) {
-
+        System.out.println(131);
     }
 }
